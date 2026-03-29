@@ -1,4 +1,4 @@
-# Single-Page Web Demos
+# Standalone-Page Web Demos
 
 A curated collection of **single-page websites** built to showcase **front-end development skills**. Each project focuses on clean layout, responsive design and modern UI practices.
 
@@ -32,7 +32,7 @@ README.md
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/rocksoncodes/Single-Frontend-Pages.git
+git clone https://github.com/rocksoncodes/Standalone-Frontend-Pages.git
 ```
 
 2. Open any project folder and launch `index.html` in your browser.
