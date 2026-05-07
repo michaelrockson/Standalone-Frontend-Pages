@@ -32,7 +32,7 @@ README.md
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/rocksoncodes/Standalone-Frontend-Pages.git
+git clone https://github.com/michaelrockson/Standalone-Frontend-Pages.git
 ```
 
 2. Open any project folder and launch `index.html` in your browser.
