@@ -1,0 +1,103 @@
+/* -----------------------------
+   Laptop & Tablet (≤ 1024px)
+----------------------------- */
+@media (max-width: 1024px) {
+    section {
+        padding: 80px 5%;
+    }
+
+    .hero {
+        padding: 140px 5% 80px;
+    }
+
+    .popular-elements,
+    .story-elements {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 2rem;
+    }
+}
+
+/* -----------------------------
+   Mobile (≤ 768px)
+----------------------------- */
+@media (max-width: 768px) {
+    section {
+        padding: 60px 24px;
+    }
+
+    .hero {
+        padding: 120px 24px 60px;
+        min-height: auto;
+    }
+
+    .section-header {
+        margin-bottom: 2.5rem;
+    }
+
+    .navbar {
+        padding: 1rem 5%;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .navbar ul {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        height: 100vh;
+        background: var(--surface);
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        transition: 0.4s ease-in-out;
+        z-index: 999;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar ul.active {
+        right: 0;
+    }
+
+    #nav-button {
+        display: none;
+    }
+
+    .hero-content img {
+        margin-top: 2rem;
+    }
+}
+
+/* -----------------------------
+   Small Mobile (≤ 480px)
+----------------------------- */
+@media (max-width: 480px) {
+    .section-header {
+        font-size: 1.75rem;
+    }
+
+    .section-header span {
+        font-size: 0.4em;
+        letter-spacing: 0.3em;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .social-elements {
+        gap: 1rem;
+    }
+
+    .social-boxes {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .popular-elements,
+    .story-elements {
+        grid-template-columns: 1fr;
+    }
+}

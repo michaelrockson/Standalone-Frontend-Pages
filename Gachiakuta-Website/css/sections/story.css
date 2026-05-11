@@ -1,0 +1,60 @@
+/* =========================
+   STORY SECTION
+========================= */
+.story-card {
+    padding: 1.25rem;
+    border-radius: var(--radius-md);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    transition: var(--transition);
+    position: relative;
+}
+
+.story-card:hover {
+    transform: translateY(-8px) scale(1.01);
+}
+
+#arc-one-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 10px 40px -10px rgba(var(--accent-rgb), 0.2);
+}
+
+#arc-two-card:hover {
+    border-color: #3c8aff;
+    box-shadow: 0 10px 40px -10px rgba(60, 138, 255, 0.2);
+}
+
+#arc-ten-card:hover {
+    border-color: var(--secondary);
+    box-shadow: 0 10px 40px -10px rgba(var(--secondary-rgb), 0.2);
+}
+
+.story-card img {
+    width: 100%;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    margin-bottom: 1.25rem;
+    filter: brightness(0.8);
+    transition: var(--transition);
+}
+
+.story-card:hover img {
+    filter: brightness(1.1);
+}
+
+.story-card h2 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+    width: 100%;
+}
+
+.story-card h3 {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    width: 100%;
+}

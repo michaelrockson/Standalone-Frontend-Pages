@@ -1,0 +1,13 @@
+.about {
+    background: var(--surface);
+    text-align: center;
+}
+
+.about .container {
+    max-width: 800px;
+}
+
+.about p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
