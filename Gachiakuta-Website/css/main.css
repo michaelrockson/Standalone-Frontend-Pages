@@ -1,0 +1,23 @@
+/* styles.components */
+
+/* Shared / Base Styles */
+@import "shared/variables.css";
+@import "shared/reset.css";
+@import "shared/typography.css";
+@import "shared/common.css";
+
+/* Components */
+@import "components/nav.css";
+@import "components/buttons.css";
+@import "components/footer.css";
+
+/* Sections */
+@import "sections/hero.css";
+@import "sections/social.css";
+@import "sections/popular.css";
+@import "sections/characters.css";
+@import "sections/story.css";
+@import "sections/conclusion.css";
+
+/* Media Queries */
+@import "shared/responsive.css";

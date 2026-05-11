@@ -1,0 +1,42 @@
+/* =========================
+   SOCIAL PROOF
+========================= */
+
+.social-elements {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-boxes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--surface);
+    padding: 1.25rem 2rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.social-boxes:hover {
+    border-color: var(--border-hover);
+    background: var(--surface-2);
+    transform: scale(1.05);
+}
+
+.social-boxes i {
+    font-size: 1.5rem;
+    color: var(--accent);
+}
+
+.social-boxes h3 {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0;
+}

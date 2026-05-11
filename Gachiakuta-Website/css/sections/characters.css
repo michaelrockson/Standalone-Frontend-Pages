@@ -1,0 +1,25 @@
+/* =========================
+   CHARACTER CARDS
+========================= */
+.protagonists-card,
+.antagonists-card {
+    text-align: center;
+    max-width: 21.875rem;
+}
+
+.protagonists-card img,
+.antagonists-card img {
+    width: 11.25rem;
+    height: 11.25rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.25rem solid #ff3b3b;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.protagonists-card img:hover,
+.antagonists-card img:hover {
+    box-shadow: 0 0 0.9375rem rgba(255, 60, 60, 0.7);
+    transform: translateY(-0.9375rem);
+}

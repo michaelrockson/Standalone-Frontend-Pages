@@ -1,0 +1,33 @@
+:root {
+    --bg: #050505;
+    --surface: #0f0f0f;
+    --surface-2: #161616;
+    
+    --accent: #ff3b3b;
+    --accent-rgb: 255, 59, 59;
+    --accent-glow: rgba(255, 59, 59, 0.15);
+    
+    --secondary: #a855f7;
+    --secondary-rgb: 168, 85, 247;
+    
+    --text: #f0f0f0;
+    --text-muted: #888888;
+    --text-dim: #555555;
+    
+    --border: rgba(255, 255, 255, 0.08);
+    --border-hover: rgba(255, 59, 59, 0.3);
+    
+    --font-heading: "Syne", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+    --font-body: "Inter", sans-serif;
+    
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1.25rem;
+    
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.5);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.6);
+    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.8);
+    
+    --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

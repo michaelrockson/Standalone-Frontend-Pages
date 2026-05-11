@@ -1,0 +1,48 @@
+.characters-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.character-card {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.character-card.reverse {
+    grid-template-columns: 1fr 300px;
+}
+
+.character-image img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.character-card:hover .character-image img {
+    border-color: var(--accent);
+    box-shadow: 0 0 30px var(--accent-glow);
+}
+
+.character-info h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+@media (max-width: 992px) {
+    .character-card, .character-card.reverse {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .character-image {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

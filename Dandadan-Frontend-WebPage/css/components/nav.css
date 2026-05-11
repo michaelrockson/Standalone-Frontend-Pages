@@ -1,0 +1,50 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: var(--transition);
+    background: rgba(3, 3, 3, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+}
+
+.navbar h4 {
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin: 0;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navbar ul li a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    transition: var(--transition);
+}
+
+.navbar ul li a:hover {
+    color: var(--text);
+}
+
+.navbar .cta-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        display: none;
+    }
+}

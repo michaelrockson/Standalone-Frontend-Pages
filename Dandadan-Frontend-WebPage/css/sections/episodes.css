@@ -1,0 +1,38 @@
+.episodes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+}
+
+.episode-card {
+    background: var(--surface-2);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.episode-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--accent);
+}
+
+.episode-card img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.episode-content {
+    padding: 2rem;
+}
+
+.episode-content h3 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.episode-content p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
